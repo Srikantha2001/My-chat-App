@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mb2"
+    android:id="@+id/LoginActivity"
+    tools:context=".LoginSignup.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/LoginHeading"
+        android:text="@string/loginPageHeading"
+        style="@style/HeadingStyle"
+        app:layout_constraintLeft_toRightOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.25"
+        android:textAlignment="center"
+        />
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:id="@+id/phone_number"
+        android:hint="@string/phoneNumberHint"
+        android:inputType="phone"
+        app:layout_constraintWidth_percent="0.8"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.4"
+        android:importantForAutofill="no"
+        android:background="@drawable/field_textview"
+        android:minHeight="@dimen/buttomMinHeight"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:id="@+id/passwordForLogin"
+        android:hint="@string/passwordHint"
+        android:inputType="textPassword"
+        app:layout_constraintWidth_percent="0.8"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        android:importantForAutofill="no"
+        android:background="@drawable/field_textview"
+        android:minHeight="@dimen/buttomMinHeight"
+        android:gravity="center"
+        />
+
+    <Button
+        android:layout_width ="0dp"
+        android:layout_height = "wrap_content"
+        app:layout_constraintWidth_percent="0.8"
+        android:text = "@string/loginButtonName"
+        android:id = "@+id/login"
+        app:backgroundTint="@null"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.6"
+        style="@style/button_style"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/LoginToSignupLink"
+        android:text="@string/loginToSignupText"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.7"
+        android:typeface="serif"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

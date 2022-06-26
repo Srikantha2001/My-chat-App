@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="button_style">
+
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">#FFFEFE</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/buttonTextSize</item>
+        <item name="android:background">@drawable/signup_login_button</item>
+        <item name="android:minHeight">@dimen/buttomMinHeight</item>
+        <item name="android:minWidth">@dimen/buttonMinWidth</item>
+    </style>
+
+    <style name="HeadingStyle">
+        <item name="android:typeface">serif</item>
+        <item name="android:textSize">@dimen/headingTextSize</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

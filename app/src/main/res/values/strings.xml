@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Chat-App</string>
+    <string name="loginPageHeading">LOGIN</string>
+    <string name="loginButtonName">Login</string>
+    <string name="signupButtonName">Signup</string>
+    <string name="phoneNumberHint">Enter Phone Number</string>
+    <string name="passwordHint">Enter Password</string>
+    <string name="signupPageHeading">SIGNUP</string>
+    <string name="loginToSignupText">Create New Account</string>
+    <string name="SignupToLoginText">Already Have an account</string>
+    <string name="userNameHint">Enter Username</string>
+</resources>
