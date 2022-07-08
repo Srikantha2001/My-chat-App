@@ -14,7 +14,7 @@
         android:theme="@style/Theme.ChatApplicationDevelopment"
         tools:targetApi="31">
         <activity
-            android:name=".LoginSignup.MainActivity"
+            android:name=".LoginSignup.LoginActivity"
             android:screenOrientation="portrait"
             android:exported="true"/>
         <activity

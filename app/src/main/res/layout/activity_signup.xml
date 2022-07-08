@@ -85,8 +85,9 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintVertical_bias="0.6"
+        android:onClick="clickedSignupButton"
         style="@style/button_style"
-        />
+        tools:ignore="UsingOnClickInXml" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -104,3 +105,5 @@
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+<!--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-->
